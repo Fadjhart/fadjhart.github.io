@@ -530,33 +530,20 @@ nav#nav-mobile ul {
     position: absolute;
     left: 0;
     right: 0;
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    background-color: #809b55;
+    margin: 0 -20px;
+    padding: 20px 0 10px 0; /* Menambahkan padding-top untuk menurunkan posisi tulisan */
+    background-color: #d2b356;
     box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-bottom-left-radius: 30px; /* Sudut bawah kiri bundar */
+    border-bottom-right-radius: 30px; /* Sudut bawah kanan bundar */
 }
 
-nav#nav-mobile ul:after {
-    display: none;
-}
 
 nav#nav-mobile li {
     margin: 0 20px;
-    float: none;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #161101;
-}
-
-nav#nav-mobile li:last-child {
-    border-bottom: none;
-}
-
-.nav-solid nav#nav-mobile li {
-    border-top: 1px solid #161101;
-    border-bottom: none;
 }
 
 nav#nav-mobile a {
@@ -564,13 +551,7 @@ nav#nav-mobile a {
     padding: 12px 0;
     color: #333;
     width: 100%;
-    height: auto;
     line-height: normal;
-    display: block;
-    border-bottom: none !important;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 
