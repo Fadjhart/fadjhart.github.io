@@ -428,7 +428,7 @@ section {
 }
 
 #header.nav-solid {
-    background: #71923c;
+    background: #435b1d;
     box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2);
     position: fixed !important;
     left:0;
@@ -2180,5 +2180,44 @@ blockquote {
     height: auto;
 }
 
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.social-links li {
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff; /* Warna dasar putih */
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0078ff; /* Warna hover biru */
+    transform: translateY(-5px) scale(1.1); /* Naik 5px dan diperbesar 10% */
+}
+
+.social-links i {
+    font-size: 24px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: #fff; /* Warna ikon putih */
+}
+
+.social-links a:hover i {
+    color: #d2b356; /* Warna ikon berubah menjadi biru saat hover */
+    transform: scale(1.2); /* Ikon sedikit diperbesar saat hover */
+}
 
 
